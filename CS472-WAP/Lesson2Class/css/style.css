@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: 0;
+    font-size: 100%;
+    line-height: 1;
+}
+
+/* p{
+    color: red;
+    text-decoration: underline;
+} */
+/* commen like this */
+
+
+/* universal selector'*' applies for everything in the file which referes this file */
+/* *{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+
+} */
+
+
+li{
+    list-style-type: decimal;
+}
+
+#para2{
+    color: green;
+
+}
+p.redpara{
+    color:red;
+}
+
+.bluepara{
+    color: blue;
+}
+
+#recent.awesome{  color: orange;}
+
+section,p{
+    text-decoration: underline;
+}
+section > p{
+    text-decoration: overline;
+}
+section p{
+    text-decoration: line-through;
+}
