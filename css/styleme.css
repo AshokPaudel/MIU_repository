@@ -8,6 +8,27 @@ h1,h2{
 .movieRank{
     font-style: italic;
 }
-imdb{
+.imdb{
     color: red;
+}
+:link{
+    text-decoration: none;
+}
+.imdb:hover{
+    text-decoration: underline;
+}
+p::first-letter{
+    font-size: 150%;
+    
+}
+p.intro{
+    -webkit-transform:rotateX(180deg);
+    
+}
+dt{
+    color: yellow;
+}
+.movielist{
+    display: flex;
+    flex-direction: column-reverse;
 }

@@ -1,0 +1,70 @@
+body{
+    background-image: url("../images/silverware.jpg");
+    background-color: white;
+    color: #404040;
+}
+/* h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #a4a400;
+    letter-spacing: 0.25em;
+    font-size: 18pt;
+    /* display: inline; */
+    /* width: fit-content;  */
+/* }  */
+
+h1{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #a4a400;
+    letter-spacing: 0.25em;
+    font-size: 18pt;
+    width: fit-content;
+    /* width: fit-content; */
+
+}
+h1.mainHeading{
+    text-align: center;
+    margin: auto;
+    font-size: 22pt;
+}
+
+.shortcut{
+    text-decoration: underline;
+}
+.abbr:hover::after{
+    
+    display: inline;
+}
+.misspelled{
+    text-decoration: line-through;
+}
+blockquote{
+    font-style: italic;
+    background-color: #ffffa8;
+}
+.userEmphasis{
+    font-weight: bold;
+}
+nav a:visited{
+    /* text-decoration: none; */
+    color: #a4a400;
+}
+nav a:link {
+    /* text-decoration: none; */
+    color: #a4a400;
+}
+.dir{
+    font-weight: bold;
+}
+ul >li{
+    /* list-style-type: square; */
+    list-style-image: url('../images/pie_icon.gif');
+   
+}
+footer{
+    text-align: right;
+    flex-direction: row-reverse
+    ;
+}
