@@ -13,7 +13,7 @@ body{
     /* width: fit-content;  */
 /* }  */
 
-h1{
+h2{
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
@@ -24,7 +24,7 @@ h1{
     /* width: fit-content; */
 
 }
-h1.mainHeading{
+h2.mainHeading{
     text-align: center;
     margin: auto;
     font-size: 22pt;
