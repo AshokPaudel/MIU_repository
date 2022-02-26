@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        header{
+            border: 3px solid black;
+            background-color: gray;
+        }
+        section#sect1{
+            border: 3px solid black;
+            background-color: rgb(64, 90, 25);
+            width: 50%;           
+            position:relative;
+            left: 30%;
+            /* percentage doesn't work for top because it doesn't know the height
+            if you put height equal to 100vh then, this will work */
+            top:30%
+            /* top: 25vh; */
+        }
+        section#sect2{
+            border: 1px solid black;
+            width: 50%;
+            position :relative;
+            left: 30%;
+            top: 30%;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wap.com </h1>
+    </header>
+    <section id="sect1">
+        <h1>Section1</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus culpa sapiente quisquam iure tempore illo error sint ratione exercitationem minima, corporis non earum facere.</p>
+    </section>
+    <section id="sect2">
+        <h1>Section2</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus culpa sapiente quisquam iure tempore illo error sint ratione exercitationem minima, corporis non earum facere.</p>
+    </section>
+    
+</body>
+</html>
