@@ -107,6 +107,9 @@ body{
     margin-bottom: 0px;
     background-color: #A2B964;
 }
+.details dt{
+    font-weight: bold;
+}
 
 .centrebaner{
     /* /* padding: 0%;
