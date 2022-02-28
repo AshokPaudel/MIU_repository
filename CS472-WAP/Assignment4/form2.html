@@ -75,19 +75,20 @@
             <div class="mb-3">
               <label for="unitPrice">Unit Price</label>
               <input
-                type="number"
+                type="text"
                 class="form-control"
                 id="unitPrice"
                 placeholder="0.0"
+                pattern="[\d]+(.)?(d)*"
               />
             </div>
           </div>
           <div class="col">
             <div class="mb-3">
-              <label for="stockQuantity" class="form-label"
+              <label for="stockQuantity" class="form-label" 
                 >Quantity in stock</label
               >
-              <input type="number" class="form-control" id="stockQuantity" />
+              <input type="number" class="form-control" id="stockQuantity" pattern="[\d]+" min="0">
             </div>
             <div class="mb-3">
               <label for="supplier" class="form-label">Supplier</label>
@@ -104,7 +105,7 @@
             <div class="mb-3">
               <label for="suppliedDate">Date supplied</label>
               <input
-                type="text"
+                type="date"
                 class="form-control"
                 id="suppliedDate"
                 name="suppliedDate"
