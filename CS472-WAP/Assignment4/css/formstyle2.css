@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    height: 31px;
+    width: 100%;    
+    background-color: skyblue;
+    /* display: inline-block; */
+}
+.topbar #signout{
+    /* position: absolute; */
+    float: right;
+    height: 30px;
+    right: 0%;
+    
+}
+.topbar #market{
+    margin-right: 10%;
+}
+.topbar #hello{
+    position: absolute;
+    right: 10%;
+}
+.container{
+    margin-top: 25px;
+}
+#prod{
+    position: fixed;
+    left: 50%;
+    /* font-size: 12px; */
+}
+#supplier{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    /* background-clip: padding-box; */
+    border: 1px solid #ced4da;
+    /* -webkit-appearance: none; */
+    /* -moz-appearance: none; */
+    /* appearance: none; */
+    border-radius: 0.25rem;
+    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+.mb-3 #reset{
+    border-color: blue;
+}
+.mb-3 #cancel{
+    border-color: orangered;
+}
+.mb-3 #add{
+    border-color: skyblue;
+}

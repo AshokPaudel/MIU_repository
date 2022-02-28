@@ -1,0 +1,22 @@
+body > form{
+    /* border: 1px solid skyblue; */
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+form >div >label{
+    /* font-family:  */
+    font-size: 12pt;
+}
+
+form>div>input{
+    /* width: 20px; */
+    height: 30px;
+    margin-top: 5px;
+}
+#emailpara{
+    opacity: 0.5;
+}
+.form-control{
+    width: 95%;
+}
