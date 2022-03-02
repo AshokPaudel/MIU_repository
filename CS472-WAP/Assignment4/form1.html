@@ -13,10 +13,11 @@
     />
 
     <link rel="stylesheet" href="./css/formstyle.css" />
+    <script src="./script/form1.js" defer></script>
     <title>Document</title>
   </head>
   <body>
-    <form method="get" action="./submit.html">
+    <form method="get" action="./submit.html" onsubmit="return display()">
       <fieldset>
         <legend>Personal Information</legend>
         <div>
@@ -58,7 +59,7 @@
           >
         </div>
         <div>
-          <input type="submit" value="submit" />
+          <input type="submit" value="submit"/>
         </div>
       </fieldset>
     </form>

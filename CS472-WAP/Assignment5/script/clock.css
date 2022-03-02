@@ -1,0 +1,17 @@
+h1{
+    background-color: whitesmoke;
+    color: black;
+   text-align: center;
+}
+#display{
+    position: relative;
+    left: 45%;
+}
+/* #timepara{
+    position: relative;
+    left: 45%;
+} */
+.timePara{
+    position: relative;
+    left: 42%;
+}

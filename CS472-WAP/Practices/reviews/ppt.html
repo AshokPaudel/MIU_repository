@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="./css/ppt.css"></script> -->
+    <title>Document</title>
+    <style>
+        p#centerBlockEle{
+            border: 2px solid black;
+            width: 33%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p#secondPara{
+            text-align: center;
+        }
+        p#secondPara >span#hello{
+            vertical-align: super;
+            font-weight: bold;
+        }
+        p#math span.sq{
+            vertical-align: super;
+        }
+        /* #formula{
+            display: none;
+        } */
+        #formula:hover::after{
+            display: inline;
+        }
+        div{ border: 2px solid black; }
+        .column{
+            float: right;
+            width: 25%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Examples from Lecture's ppt</h1>
+    <p id="centerBlockEle"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut la-bore et dolore magna aliqua.
+    </p>
+    
+    <p id="secondPara"> Hi there <span id="hello">Hello I am span</span> See you </p>
+    <p id="math">Let's demonstrate some Math here (a+b)<span class="sq">2</span>:
+    <span id="formula" title="hello">
+        a<span class="sq">2
+        </span>+2ab+b<span class="sq">2</span>
+    </span>
+    </p>
+    <div class="column"> Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Integer pretium dui sit amet felis. </div>
+        <div class="column"> Integer sit amet diam. Phasellus ultrices
+        viverra velit. </div>
+        <div class="column"> Beware the Jabberwock, my son! The jaws
+        that bite, the claws that catch! </div>
+
+
+    
+</body>
+</html>
