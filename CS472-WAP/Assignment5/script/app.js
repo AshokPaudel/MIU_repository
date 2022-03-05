@@ -8,18 +8,18 @@ function max(i , j){
 //Q.N2 return maximum of 3
 function maxOfThree(i,j,k){
     let m;
-    // m= i>=j?(i>=k?i:k):j>=k?j:k;
-    if (i>=j){
-        if(i>=k) m=i;
-        else m=k;
-    }else{
-        if(j>=k) m=j;
-        else m=k;
-    }
+    m= i>=j?(i>=k?i:k):j>=k?j:k;
+    // if (i>=j){
+    //     if(i>=k) m=i;
+    //     else m=k;
+    // }else{
+    //     if(j>=k) m=j;
+    //     else m=k;
+    // }
     return m;
 }
 //Q.N 3 check if the given character is vowel or not
-function isVowel(c){
+function isVowel(c){    
     return "aeiou".includes(c);
 }
 //Q.N4
@@ -47,6 +47,7 @@ function reverse(str){
         res+=str.charAt(str.length-i-1);
     }
     return res;
+
 }
 //Q.N 6 return length of longest word in array
 function findLongestWord(arr){
@@ -81,7 +82,7 @@ function computeSumOfSquares(nums){
 
 //Q.N 9 printOddNumbersOnly 
 function printOddNumbersOnly(nums){
-    console.log(nums.filter(x=>x%2==1));
+    nums.filter(x=>x%2==1).forEach(x=>console.log(x));
 }
 //Q.N 10 computeSumOfSquaresOfEvensOnly
 function computeSumOfSquaresOfEvensOnly(nums){
@@ -101,7 +102,9 @@ function multiplyf(nums){
 //Q.N 12 findSecondBiggest
 
 function findSecondBiggest(nums){
-    if(nums.length==0) return null;
+    if(nums.length<2) {
+        throw new Error("Array should have at least of length 2");
+    }
     let big=nums[0];
     let secBig=nums[0];
     for(let i=0;i<nums.length;i++){
@@ -113,18 +116,17 @@ function findSecondBiggest(nums){
         }
 
     }
-
-
     return secBig;
 }
 
 // Q.N 13 printFibo , input length, starting val 1, starting val2
 function printFibo(len, val1, val2){
+    if(len==0) return[];
     res=[val1];
     if(len>1){
         res.push(val2);
     }
-    res=[val1,val2];
+   // res=[val1,val2];
     for(let i=2;i<len;i++){
         res.push(res[i-2]+res[i-1]);
     }

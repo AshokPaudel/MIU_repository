@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using HTML entities</title>
+</head>
+
+<body>
+    <p>
+        To display a hyperlink to the MIU website, like this, <a href="https://www.miu.edu/">Maharishi International University</a> , type the following HTML code:
+    </p>
+
+    <p>&lt;p&gt; &lt;a href= &quot;https://www.miu.edu/&quot;&gt; Maharishi International University &lt;/a &gt; &lt;/p&gt;
+        <!-- can use <q> </q> instead of &quot; -->
+    </p>
+    <p>
+        To display the above HTML code, type the following:</p>
+    <p>
+        <!-- <pre> and <code> are not working and <xmp> is obsolete -->
+        <!-- <pre>&lt;p&gt;</pre>
+        <code>&lt;p&gt;</code> -->
+        <!-- <xmp> &lt;p&gt; &lt;a href=&quot;https://www.miu.edu/&quot;&gt; Maharishi International University &lt;/a &gt; &lt;/p&gt; </xmp> -->
+        <strong> &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://www.miu.edu/&amp;quot;&amp;gt; Maharishi International University&amp;lt;/a &amp;gt; &amp;lt;/p&amp;gt; </strong>
+    </p>
+</body>
+
+</html>

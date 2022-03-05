@@ -1,0 +1,38 @@
+.mynav{
+    background-color: skyblue;
+}
+article{
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    /* place-content: center; */
+}
+#censusimg{
+    float: right;
+}
+
+/* Form */
+
+.myform{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* display: grid; */
+    justify-content: center;
+}
+.buttons{
+   float: right;
+
+}
+#signin{
+    width: auto;
+    float: right;
+}
+.mytable{
+    /* display: grid; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 10%;
+    width: 80%;
+    justify-content: center;
+}

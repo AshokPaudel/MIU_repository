@@ -1,0 +1,32 @@
+section{
+    /* width: 80%; */
+    margin:auto;
+    display: grid;
+    justify-content: center;
+}
+.buttons{
+    float: right;
+}
+.bimage{
+    /* width: ; */
+    background-image: url("../images/background.PNG");
+    background-repeat: repeat-x;
+
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#telpphone{
+    color: skyblue;
+    text-decoration: underline;
+}
+#email{
+    color: orangered;
+}
+.mynav{
+    background-color: orangered;
+}
+#slogan{
+    font-style: italic;
+}
