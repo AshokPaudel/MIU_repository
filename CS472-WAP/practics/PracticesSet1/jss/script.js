@@ -13,7 +13,7 @@ function showTime(){
                     +now.getHours()+":"+now.getMinutes()+":"+now.getSeconds();
     document.getElementById("clock").innerHTML=timeString;
 }
-showTime();
+// showTime();
 
 var submitBtn=document.getElementById("submitForm")
 submitBtn.addEventListener("submit", function(event) {

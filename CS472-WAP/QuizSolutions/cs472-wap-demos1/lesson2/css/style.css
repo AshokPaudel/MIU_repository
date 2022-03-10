@@ -1,0 +1,37 @@
+
+/* style.css */
+* {
+    box-sizing: border-box;
+}
+/*
+p {
+    color: rgb(0, 0, 255);
+    color: #681d1d; 
+    text-decoration: underline;
+}
+*/
+
+/* section {
+    background-color: rgba(0, 0, 127, 0.5);
+} */
+#para1 {
+    color: green;
+}
+p.redpara {
+    color: red;
+}
+p.bluepara {
+    color: blue;
+}
+
+section, p {
+    text-decoration: underline;
+}
+
+section > p {
+    text-decoration: overline;
+}
+
+section p {
+    text-decoration: line-through;
+}

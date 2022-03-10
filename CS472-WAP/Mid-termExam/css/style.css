@@ -1,0 +1,32 @@
+#bannerimg{
+
+    float: right;
+}
+article{
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    /* place-content: center; */
+}
+
+#censusimg{
+    float: right;
+}
+.mynav{
+    background-color: skyblue;
+}
+.myform{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* display: grid; */
+    justify-content: center;
+}
+#button{
+    text-align: right;
+   /* float: right; */
+
+}
+#displayTime{
+    margin-right: 5px;
+}

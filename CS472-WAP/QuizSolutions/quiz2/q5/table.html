@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Schedule Chart</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            border: 1px solid black;
+            padding: 20px;
+        }
+        body {
+            display: grid;
+            place-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Events Schedule Chart</h1>
+    </header>
+    <main>
+        <!-- <table border="1" cellpadding="20" cellspacing="0"> -->
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">WEEK</th>
+                    <th rowspan="2">SESSION</th>
+                    <th colspan="2">TRACKS</th>
+                    <!-- <th>TRACKS</th> -->
+                </tr>
+                <tr>
+                    <!-- <th>WEEK</th> -->
+                    <!-- <th>SESSION</th> -->
+                    <th>Track One</th>
+                    <th>Track Two</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3" scope="row">Week1</th>
+                    <td>Morning</td>
+                    <td>Week1_M_Trk1</td>
+                    <td>Week1_M_Trk2</td>
+                </tr>
+                <tr>
+                    <!-- <td>Week1</td> -->
+                    <td>Morning</td>
+                    <td>Week1_M_Trk1</td>
+                    <td>Week1_M_Trk2</td>
+                </tr>
+                <tr>
+                    <!-- <td>Week1</td> -->
+                    <td>Morning</td>
+                    <td>Week1_M_Trk1</td>
+                    <td>Week1_M_Trk2</td>
+                </tr>
+                <tr>
+                    <th  rowspan="3" scope="row">Week2</th>
+                    <td>Morning</td>
+                    <td>Week1_M_Trk1</td>
+                    <td>Week1_M_Trk2</td>
+                </tr>
+                <tr>
+                    <!-- <td>Week2</td> -->
+                    <td>Morning</td>
+                    <td>Week1_M_Trk1</td>
+                    <td>Week1_M_Trk2</td>
+                </tr>
+                <tr>
+                    <!-- <td>Week2</td> -->
+                    <td>Morning</td>
+                    <td>Week1_M_Trk1</td>
+                    <td>Week1_M_Trk2</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

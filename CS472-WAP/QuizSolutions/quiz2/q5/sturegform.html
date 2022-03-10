@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        div.btn-pane {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <div>
+                <span>Note: Fields marked with asterick (*) are required.</span>
+            </div>
+            <fieldset>
+                <legend>Bio Data</legend>
+                <div>
+                    <label for="fullname">Full Name*</label>
+                </div>
+                <div>
+                    <input type="text" name="fullname" id="fullname" placeholder="Enter Full Name">
+                </div>
+                <div>
+                    <label for="dob">Date of Birth*</label>
+                </div>
+                <div>
+                    <input type="date" name="dob" id="dob">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Academic Enrollment Data</legend>
+                <div>
+                    <label for="studentId">Student ID*</label>
+                </div>
+                <div>
+                    <input type="text" name="studentId" id="studentId" placeholder="000-XX-XXXX" pattern="000-\d{2}-\d{4}">
+                </div>
+                <div>
+                    <div>
+                        <span>Level of study*</span>
+                    </div>
+                    <div>
+                        <label for="grad">
+                            <input type="radio" name="grad" id="grad">Graduate
+                        </label>
+                        <label for="undergrad">
+                            <input type="radio" name="undergrad" id="undergrad">UnderGraduate
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="btn-pane">
+                <button type="button">Cancel</button>
+                <button type="reset">Reset</button>
+                <!-- <button type="submit">Register</button> -->
+                <input type="button" value="Register">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
