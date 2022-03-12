@@ -19,6 +19,22 @@ window.onload=( function(){
 //capture form data
 $("#btnRegisterPatient").click(function(event){
     event.preventDefault();
+
+    //    ---------------Shree Method---------------
+// jQuery Form validation: copied from shree
+var valid = true;
+var fieldsToCheck = $("#patientForm").find(":required");
+$.each(fieldsToCheck, function (index, value) {
+  if ($(value).val() == "") valid = false;
+});
+
+if (valid == false) {
+  $("#patientForm").find(".formSubmit").click();
+  return false;
+}
+
+//jQuery Form Validation : end
+
     const pid=$("#patientIdNumber").val();
     const fname=$("#firstName").val();
     const middleInitials=$("#middleInitials").val();
@@ -33,23 +49,13 @@ $("#btnRegisterPatient").click(function(event){
         new Patient(pid,fname,middleInitials,lastName,new Date(dateOfBirth),ddlDepartment,radioIsOutPatient)
     ;
     console.log(data);
-    loadData([data],0,1);
+    // loadData([data],0,1);
     sampleData.push(data);
+    $("#chkShowOutPatients")[0].checked=false;
+    $("#chkElderlyPatients")[0].checked=false; 
+    loadData(sampleData,0,sampleData.length);
 
-//    ---------------Shree Method---------------
-// jQuery Form validation: copied from shree
-    var valid = true;
-  var fieldsToCheck = $("#patientForm").find(":required");
-  $.each(fieldsToCheck, function (index, value) {
-    if ($(value).val() == "") valid = false;
-  });
 
-  if (valid == false) {
-    $("#patientForm").find(".formSubmit").click();
-    return false;
-  }
-
-  //jQuery Form Validation : end
   
 })
 
