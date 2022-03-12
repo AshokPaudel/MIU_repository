@@ -29,6 +29,13 @@ const john=Object.create(person,
     }
 });
 
+/*
+const john=Object.create(person);
+john.setName("john");
+//john.setDOB("");----
+john.dob=new Date(.....);
+*/
+
 console.log(`The person's name is ${john.getName()}`);
 console.log(`${john.getName()} was born on ${john.getDOB()}` );
 
